@@ -438,3 +438,8 @@ cargo llvm-cov --features testutils --fail-under-lines 95 --summary-only -p kari
 ## Contributing
 
 MIT
+
+## Handsoff notes
+
+<!-- handsoff-issue-608 -->
+- #608: Issue 120: Add property test: `export_state` + `import_state` is identity
