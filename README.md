@@ -438,3 +438,8 @@ cargo llvm-cov --features testutils --fail-under-lines 95 --summary-only -p kari
 ## Contributing
 
 MIT
+
+## Handsoff notes
+
+<!-- handsoff-issue-607 -->
+- #607: Issue 119: Add property test: settlement payout sum equals funded amount + total yield
