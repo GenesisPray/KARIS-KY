@@ -18,7 +18,7 @@ Key design decisions for the karis-ky escrow contract.
 
 > **Reading order for v5 → v6:** Read [ADR-007](ADR-007-storage-key-evolution.md) (policy, `Rule 5`) first for the high-level additive-key policy; then read [ADR-009](ADR-009-per-investor-persistent-storage.md) for the dedicated rationale, TTL/footprint tradeoffs, and the operator-facing v5 → v6 redeploy plan.
 
-> **Reading order for scaling (10k+ investors):** Read [ADR-010](ADR-010-batch_fund-design.md) for multi-investor funding patterns, then see `docs/arch/sharding-architecture.md` for the optional investor storage sharding architecture that enables unbounded cardinality.
+> **Reading order for scaling (10k+ investors):** Read [ADR-010](ADR-010-batch_fund-design.md) for multi-investor funding patterns, then read [ADR-012](ADR-012-investor-storage-sharding.md) for the investor storage sharding decision, and see `docs/arch/sharding-architecture.md` for the full sharding architecture that enables unbounded cardinality.
 
 > **Reading order for governance:** Read [ADR-011](ADR-011-governance-voting.md) for the rationale behind the on-chain voting mechanism, then see [`docs/escrow-governance-voting.md`](../escrow-governance-voting.md) for implementation and operator usage.
 
